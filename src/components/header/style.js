@@ -58,6 +58,19 @@ div {
         font-weight: 600;
     }
 }
+@media (max-width: 600px) {
+    height: 80px;
+    flex-wrap: wrap;
+    h1 {
+        font-size: 15px;
+    }
+    div button {
+        font-size: 12px;
+    }
+    .game {
+        display: none;
+    }
+}
 `;
 
 export default HeaderStyled;

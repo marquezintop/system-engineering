@@ -13,7 +13,7 @@ export default function Header({page, visible}) {
                     onClick={() => navigate("/")}>Introdução ao Curso</button>
                 <button className={page === "Map" ? "disabled" : "activated"}
                     onClick={() => navigate("/mapa")}>Mapa Mundi</button>
-                <button className={page === "Game" ? "disabled" : "activated"}
+                <button className={page === "Game" ? "game disabled" : "game activated"}
                     onClick={() => navigate("/jogo")}>Jogo da Forca</button>
             </div>
         </HeaderStyled>
