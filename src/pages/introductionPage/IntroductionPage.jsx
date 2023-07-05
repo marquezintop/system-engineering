@@ -1,7 +1,12 @@
+import { useEffect } from "react"
 import engineer from "../../assets/engineer.png"
 import { Container, EngineerImage, EngineerIntroduction, EngineerTopics } from "./style"
 
-export default function IntroductionPage() {
+export default function IntroductionPage({setPage}) {
+    useEffect(() => {
+        setPage('Introduction')
+    }, []);
+
     return (
         <>
         <Container>

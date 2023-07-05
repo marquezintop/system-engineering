@@ -11,6 +11,7 @@ display: flex;
 align-items: center;
 z-index: 10;
 justify-content: space-around;
+visibility: ${props => props.visible ? "visible" : "hidden"};
 h1 {
     color: #FFFFFF;
     font-size: 29px;
