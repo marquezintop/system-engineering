@@ -1,5 +1,4 @@
 import engineer from "../../assets/engineer.png"
-import MapPage from "../MapPage/MapPage"
 import { Container, EngineerImage, EngineerIntroduction, EngineerTopics } from "./style"
 
 export default function IntroductionPage() {
@@ -27,7 +26,6 @@ export default function IntroductionPage() {
                     <li>◉ <span>Tecnologias emergentes:</span> Com o avanço da tecnologia, os engenheiros de sistemas estão cada vez mais envolvidos com tecnologias emergentes, como inteligência artificial, aprendizado de máquina, Internet das Coisas (IoT) e computação em nuvem. O curso de Engenharia de Sistemas busca preparar os alunos para acompanhar e aplicar essas tecnologias em suas futuras carre</li>
                 </ul>
             </EngineerTopics>
-            <MapPage/>
         </Container>
         </>
     )
