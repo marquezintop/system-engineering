@@ -12,7 +12,7 @@ export default function MapPage() {
             />
             <Marker position={position}>
             <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
+                A pretty CSS3 popupoii. <br /> Easily customizable.
             </Popup>
             </Marker>
         </MapContainer>
