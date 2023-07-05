@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Header from "./components/header/Header"
 import IntroductionPage from "./pages/introductionPage/IntroductionPage"
-import MapPage from "./pages/mapPage/MapPage";
+import MapPage from "./pages/MapPage/MapPage";
 import { useState } from "react";
 import HangGamePage from "./pages/hangGame/HangGamePage";
 
