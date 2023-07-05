@@ -1,15 +1,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Header from "./components/header/Header"
-import Introduction from "./pages/introduction/Introduction"
+import IntroductionPage from "./pages/introductionPage/IntroductionPage"
+import MapPage from "./pages/MapPage/MapPage"
 
 function App() {
 
   return (
       <>
-      <Header></Header>
       <BrowserRouter>
+      <Header></Header>
       <Routes>
-        <Route path="/" element={<Introduction/>}/>
+        <Route path="/" element={<IntroductionPage />}/>
+        <Route path="/mapa" element={<MapPage/>}/>
+        <Route path="/jogo" element={<IntroductionPage/>}/>
       </Routes>
       </BrowserRouter>
       </>
